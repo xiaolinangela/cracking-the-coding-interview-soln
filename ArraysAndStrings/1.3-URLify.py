@@ -2,7 +2,7 @@ import time
 start_time = time.time()
 
 
-def URLify(str, trueLength):
+def urlify(str, trueLength):
     list_str = list(str)
     list_str = list_str[:trueLength]
     for i in range(trueLength):
@@ -12,11 +12,11 @@ def URLify(str, trueLength):
     return url_str
 
 
-def URLify_simple(str, trueLength):
+def urlify_simple(str, trueLength):
     return str.strip().replace(" ", "%20")
 
 
 if __name__ == "__main__":
-    print(URLify("Mr John Smith    ", 13))
+    print(urlify("Mr John Smith    ", 13))
 
 print("--- %s seconds ---" % (time.time() - start_time))

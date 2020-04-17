@@ -1,4 +1,4 @@
-def canPermutePalindrome(s):
+def palin_perm(s):
     d = {x: 0 for x in range(128)}
     for char in s:
         if char != " ":
@@ -13,7 +13,7 @@ def canPermutePalindrome(s):
 
 
 if __name__ == "__main__":
-    print(canPermutePalindrome("tact coa"))
-    print(canPermutePalindrome("code"))
+    print(palin_perm("tact coa"))
+    print(palin_perm("code"))
 
 # Time complexity O(n), space complexity O(1)

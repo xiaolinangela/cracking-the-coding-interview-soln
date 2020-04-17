@@ -1,4 +1,4 @@
-def stringCompression(str1):
+def string_comp(str1):
     result = []
     count = 0
     list_str1 = list(str1)
@@ -12,4 +12,4 @@ def stringCompression(str1):
 
 
 if __name__ == "__main__":
-    print(stringCompression("aaabbb"))
+    print(string_comp("aaabbb"))

@@ -1,4 +1,4 @@
-def OneAway(first, second):
+def one_away(first, second):
     # print(abs(len(s1)-len(s2)))
     if abs(len(first)-len(second)) > 1:
         return False
@@ -25,7 +25,7 @@ def OneAway(first, second):
 
 
 if __name__ == "__main__":
-    print(OneAway("pale", "psli"))
-    print(OneAway("pale", "pal"))
-    print(OneAway("pal", "peal"))
-    print(OneAway("pil", "peal"))
+    print(one_away("pale", "psli"))
+    print(one_away("pale", "pal"))
+    print(one_away("pal", "peal"))
+    print(one_away("pil", "peal"))

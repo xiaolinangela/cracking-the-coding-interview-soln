@@ -1,4 +1,4 @@
-def IsUnique(string):
+def is_unique(string):
     char_set = [False for i in range(128)]
     for char in string:
         val = ord(char)
@@ -11,6 +11,6 @@ def IsUnique(string):
 
 
 if __name__ == "__main__":
-    IsUnique("sting!@")
+    is_unique("sting!@")
 
 # Space Complexity O(1). Time Complexity O(n)

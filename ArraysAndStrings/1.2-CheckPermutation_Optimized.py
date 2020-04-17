@@ -1,4 +1,4 @@
-def CheckPermutation_Opt(str1, str2):
+def check_permutation_opt(str1, str2):
     if len(str1) != len(str2):
         return False
     else:
@@ -13,12 +13,12 @@ def CheckPermutation_Opt(str1, str2):
 
 
 if __name__ == "__main__":
-    if CheckPermutation_Opt('wef34f', 'wfff34'):
+    if check_permutation_opt('wef34f', 'wfff34'):
         print("str1 is permutation of str2")
     else:
         print("str1 is not permutation of str2")
 
-    if CheckPermutation_Opt('2354', '1234'):
+    if check_permutation_opt('2354', '1234'):
         print("str1 is permutation of str2")
     else:
         print("str1 is not permutation of str2")
