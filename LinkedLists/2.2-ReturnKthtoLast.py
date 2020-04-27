@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self, x):
         self.val = x
@@ -24,9 +25,9 @@ def return_kth_to_last(k, head):
     p2 = head
     for i in range(k):
         p1 = p1.next
-        while p1 != None:
-            p1 = p1.next
-            p2 = p2.next
+    while p1 != None:
+        p1 = p1.next
+        p2 = p2.next
     return p2.val
 
 
