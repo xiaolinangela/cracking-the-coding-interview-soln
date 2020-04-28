@@ -34,7 +34,16 @@ class LinkedList:
             self.tail = self.tail.next
         return self.tail
 
+    def __len__(self):
+        curr = self.head
+        result = 0
+        while curr:
+            result += 1
+            curr = curr.next
+        return result
+
 
 if __name__ == "__main__":
-    l1 = LinkedList([3])
+    l1 = LinkedList([3, 4, 5])
     l1.printNode()
+    print(len(l1))

@@ -27,4 +27,3 @@ if __name__ == "__main__":
     while result:
         print(result.val)
         result = result.next
-    result.printNode()
