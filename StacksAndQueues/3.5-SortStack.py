@@ -9,7 +9,6 @@ class SortStack:
     
     def pop(self):
         self.peek()
-        print(self.temp_stack)
         return self.temp_stack.pop()
     
     def peek(self):
