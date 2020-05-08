@@ -21,8 +21,8 @@ class Graph:
                         return True
                     else:
                         q.put(i)
-                # print(list(q.queue))
-                visited.add(i)
+                        visited.add(i)
+                print(list(q.queue))
         return False
         
 
