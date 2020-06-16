@@ -20,3 +20,6 @@ if __name__ == "__main__":
     m = 3
     n = 3
     print(sorted_merge(nums1, m, nums2, n))
+
+# Time Complexity: O(m+n)
+# Space Complexity: O(1)
