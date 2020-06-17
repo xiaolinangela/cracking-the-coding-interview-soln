@@ -14,3 +14,6 @@ def search(array, target):
             left = mid + 1
 
     return -1
+
+# Time Complexity: Olog(T) T is the index of target value
+# Space Complexity: O(1)
