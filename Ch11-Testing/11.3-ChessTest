@@ -1,0 +1,22 @@
+Question:  We have the following method used in a chess game: boolean canMoveTo(int x,
+i n t y). This method is part of the Piece class and returns whether or not the piece can move to
+position (x , y). Explain how you would test this method. 
+
+Answer: Two primary type of tests: extreme and general case validation
+Extreme:
+    1.negative number
+    2.x larger than the width
+    3.y larger than the height
+    4.a completely full board
+    5.empty or nearly empty board
+    6.far more black pieces than white
+    7.far more white pieces than black
+
+General: 
+    for each piece a:
+        for each other type of piece b (6types + empty space):
+            for each direction d:
+                create a board with piece a
+                place piece b in direction d
+                try to move - check return value 
+            
