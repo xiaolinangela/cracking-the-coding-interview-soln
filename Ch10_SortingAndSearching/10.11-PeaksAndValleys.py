@@ -16,3 +16,7 @@ def pv(arr):
 if __name__ == "__main__":
     arr = [5, 8, 6, 2, 3, 4, 6]
     print(pv(arr))
+
+
+# Time Complexity O(n)
+# Space Complexity O(1)
