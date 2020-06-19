@@ -1,0 +1,5 @@
+SELECT TenantName
+FROM Tenants
+INNER JOIN
+    (SELECT TenantID FROM AptTenants GROUP BY TenanID HAVING count(*)>1) C 
+ON Tenants.TenantID = C.TenantID
