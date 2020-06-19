@@ -1,0 +1,10 @@
+Question : No Test Tools: How would you load test a webpage without using any test toots? 
+Answer: 
+    Load testing helps to identify a web application's maximum operating capacity, as well as any
+    bottlenecks that may interfere with its performance. 
+    Metrics to use: response time, throughput, resource utilization, and maximum laod that the system
+                    can bear
+    In the absence of formal testing tools, we can simulate concurrent users by creating thousands
+    of virtual users by writing a multi-threaded program with thousands of threads, where each threaded
+    acts as a real-world user loading the page. For each user, we would programmatically measure
+    resoinse time, date I/O, etc. 
